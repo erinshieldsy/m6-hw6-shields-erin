@@ -1,0 +1,61 @@
+body {
+    background-color: #ccdeff;
+background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%233360ff' fill-opacity='0.39'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    max-width: 800px;
+    margin: 0 400px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-weight: bold;
+}
+
+section {
+    text-align: right;
+    margin-top: 20px;
+}
+
+img {
+    float: left;
+    display: flex;
+    margin: 0 10px;
+}
+
+main, nav {
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+header, footer {
+    background-color: #3360ff;
+    padding: 15px;
+}
+
+nav {
+    display: flex
+    
+}
+
+.logo, .link {
+    color: white;
+}
+
+.logo {
+    margin-right: auto
+}
+
+.link {
+    margin: 0 4px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: auto;
+}
